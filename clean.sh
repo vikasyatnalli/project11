@@ -1,4 +1,5 @@
 #!/bin/bash 
+#calculate the total
 total=`ls /root/ | wc -l`
 echo "Total = $total"
 old_files=`expr $total - 50`
