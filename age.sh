@@ -9,5 +9,6 @@ do
 		echo $line | awk -F " " '{print $2}' 
 	fi 
 done < $1
+
 	
 
